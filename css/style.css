@@ -1,0 +1,78 @@
+body {
+    color: #FFF;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.title {
+    text-align: center;
+}
+
+.title a {
+    text-decoration: none;
+    font-size: 3rem;
+    font-weight: 600;
+    color: #40D4EB;
+}
+
+.title-container {
+    padding: 5% 0 0 0  ;
+}
+
+.calculator-container {
+    padding: 10% 25%;
+}
+
+.display h1 {
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+    font-weight: 600;
+    padding-right: 7px;
+}
+
+.display {
+    font-size: 2rem;
+    text-align: right;
+    background-color: #FF9B87;
+    border-radius: 5px;
+}
+
+.col, .col-3, .col-6 {
+    padding: 0;
+}
+
+.col {
+    margin: 2px;
+}
+
+.col-3, .col-6 {
+    padding: 2px
+}
+
+.btn, .btn:hover, .btn:active, .btn:visited {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #FFF;
+    border: none;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.number {
+    background-color: #7BE8D0;
+}
+
+.operator {
+    background-color: #FFC787;
+}
+
+.clear {
+    font-weight: 500;
+    background-color: #40D4EB;
+}
+
+.footer {
+    margin-top: 20%;
+    text-align: center;
+    font-weight: 400;
+    color: #40D4EB;
+}
